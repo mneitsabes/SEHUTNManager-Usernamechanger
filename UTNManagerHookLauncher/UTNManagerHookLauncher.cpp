@@ -41,7 +41,7 @@ int main(int argc, _TCHAR* argv[]) {
 	wchar_t softwareExe[] = L"utnmanager.exe";
 	// We start the UTN Manager Process in the suspended state because the software calls directly the syscall to get the current username
 	if (!CreateProcess(NULL,				  // No module name (use command line)
-					   softwareExe,     // The UTN Manager software
+					   softwareExe,           // The UTN Manager software
 				       NULL,                  // Process handle not inheritable
 					   NULL,                  // Thread handle not inheritable
 					   FALSE,                 // Set handle inheritance to FALSE
@@ -59,7 +59,7 @@ int main(int argc, _TCHAR* argv[]) {
 	DWORD processId = pi.dwProcessId;
 
 	// The DLL which must be injected
-	WCHAR* dllToInject = L"H:\\null\\Documents\\Visual Studio 2015\\Projects\\SEHUTNManager-Usernamechanger\\Debug\\UTNManagerHook.dll";
+	WCHAR* dllToInject = L"UTNManagerHook.dll";
 	wprintf(L"Attempting to inject: %s\n\n", dllToInject);
 
 	// Inject dllToInject into the target process Id, passing the username as the pass through data.
