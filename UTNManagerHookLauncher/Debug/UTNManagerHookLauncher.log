@@ -1,0 +1,8 @@
+﻿  stdafx.cpp
+  UTNManagerHookLauncher.cpp
+h:\null\documents\visual studio 2015\projects\sehutnmanager-usernamechanger\packages\easyhooknativepackage.2.7.6035\build\native\include\easyhook.h(39): warning C4005: 'NTDDI_VERSION' : redéfinition de macro
+  c:\program files (x86)\windows kits\8.1\include\shared\sdkddkver.h(206): note: voir la définition précédente de 'NTDDI_VERSION'
+h:\null\documents\visual studio 2015\projects\sehutnmanager-usernamechanger\packages\easyhooknativepackage.2.7.6035\build\native\include\easyhook.h(40): warning C4005: '_WIN32_WINNT' : redéfinition de macro
+  c:\program files (x86)\windows kits\8.1\include\shared\sdkddkver.h(200): note: voir la définition précédente de '_WIN32_WINNT'
+  UTNManagerHookLauncher.vcxproj -> H:\null\Documents\Visual Studio 2015\Projects\SEHUTNManager-Usernamechanger\Debug\UTNManagerHookLauncher.exe
+  UTNManagerHookLauncher.vcxproj -> H:\null\Documents\Visual Studio 2015\Projects\SEHUTNManager-Usernamechanger\Debug\UTNManagerHookLauncher.pdb (Full PDB)

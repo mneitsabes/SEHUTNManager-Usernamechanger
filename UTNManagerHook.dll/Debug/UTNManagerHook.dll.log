@@ -1,0 +1,6 @@
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(392,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (UTNManagerHook.dll.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  stdafx.cpp
+  dllmain.cpp
+     Création de la bibliothèque H:\null\Documents\Visual Studio 2015\Projects\SEHUTNManager-Usernamechanger\Debug\UTNManagerHook.lib et de l'objet H:\null\Documents\Visual Studio 2015\Projects\SEHUTNManager-Usernamechanger\Debug\UTNManagerHook.exp
+  UTNManagerHook.dll.vcxproj -> H:\null\Documents\Visual Studio 2015\Projects\SEHUTNManager-Usernamechanger\Debug\UTNManagerHook.dll
+  UTNManagerHook.dll.vcxproj -> H:\null\Documents\Visual Studio 2015\Projects\SEHUTNManager-Usernamechanger\Debug\UTNManagerHook.pdb (Full PDB)
